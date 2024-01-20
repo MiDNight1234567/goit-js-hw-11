@@ -30,7 +30,7 @@ refs.form.addEventListener('submit', event => {
 
   fetchImages(url)
     .then(data => {
-      if (data.hits.length === 0) {
+      if (data.this.length === 0) {
         createMessage(
           `Sorry, there are no images matching your search query. Please, try again!`
         );
