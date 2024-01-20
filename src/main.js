@@ -2,6 +2,7 @@
 
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
+
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
@@ -30,7 +31,7 @@ refs.form.addEventListener('submit', event => {
 
   fetchImages(url)
     .then(data => {
-      if (data.this.length === 0) {
+      if (data.hits.length === 0) {
         createMessage(
           `Sorry, there are no images matching your search query. Please, try again!`
         );
@@ -78,7 +79,7 @@ function createMarkup(hits) {
       src="${webformatURL}"
       alt="${tags}"
     />
-    <p class="gallery-descr">Likes: <span class="descr-span">${likes}</span> Views: <span class="descr-span">${views}</span> Comments: <span class="descr-span">${comments}</span> Downloads: <span class="descr-span">${downloads}</span></p>
+    <p class="gallery-descr">likes: <span class="descr-span">${likes}</span> views: <span class="descr-span">${views}</span> comments: <span class="descr-span">${comments}</span> downloads: <span class="descr-span">${downloads}</span></p>
   </a>
 </li>`
     )
