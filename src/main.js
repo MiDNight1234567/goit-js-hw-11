@@ -14,7 +14,7 @@ const refs = {
   searchBtn: document.querySelector('.search-btn'),
 };
 
-const BASE_URL = 'https://pixabay.com/api';
+const BASE_URL = 'https://pixabay.com/api/';
 const API_KEY = '41899926-74a7536d4d492e936dbb67b5b';
 
 refs.form.addEventListener('submit', event => {
