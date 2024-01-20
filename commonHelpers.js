@@ -6,7 +6,7 @@ import{S as f,i as d}from"./assets/vendor-9310f15c.js";(function(){const t=docum
       src="${t}"
       alt="${o}"
     />
-    <p class="gallery-descr">likes: <span class="descr-span">${e}</span> views: <span class="descr-span">${r}</span> comments: <span class="descr-span">${l}</span> downloads: <span class="descr-span">${u}</span></p>
+    <p class="gallery-descr">Likes: <span class="descr-span">${e}</span> Views: <span class="descr-span">${r}</span> Comments: <span class="descr-span">${l}</span> Downloads: <span class="descr-span">${u}</span></p>
   </a>
 </li>`).join("")}function c(s){d.show({class:"error-svg",position:"topRight",icon:"error-svg",message:s,maxWidth:"432",messageColor:"#fff",messageSize:"16px",backgroundColor:"#EF4040",close:!1,closeOnClick:!0})}function i(s=!0){n.loader.style.display=s?"inline-block":"none",n.searchBtn.disabled=s}
 //# sourceMappingURL=commonHelpers.js.map
