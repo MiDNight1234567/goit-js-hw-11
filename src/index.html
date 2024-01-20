@@ -22,6 +22,20 @@
       <img src="./img/javascript.svg" alt="" />
     </section>
 
+    <form class="search-form" autocomplete="off">
+      <label for="search-inp">
+        <input
+          class="search-inp"
+          type="text"
+          name="query"
+          placeholder="Search images..."
+        />
+      </label>
+      <button class="search-btn" type="submit">Search</button>
+    </form>
+    <span class="loader"></span>
+    <ul class="gallery is-open"></ul>
+
     <script type="module" src="./main.js"></script>
   </body>
 </html>
